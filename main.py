@@ -4,10 +4,10 @@ import spotipy
 from spotipy.oauth2 import SpotifyClientCredentials, SpotifyOAuth
 from pprint import pprint   # Helps to print nested objects prettier.
 
-CLIENT_ID = "22dda6c8d3b34cfa8e9080b8cf8385e1"
-CLIENT_SECRET = "4799e284888b4dfc9c8627c30dd52ae8"
+CLIENT_ID = "YOUR CLIENT ID"
+CLIENT_SECRET = "YOUR CLIENT SECRET"
 REDIRECT_URI = "http://example.com"
-SPOTIFY_USERNAME = "31z3chm4bpm4xec636zcrjzzye6i"
+SPOTIFY_USERNAME = "YOUR SPOTIFY USERNAME"
 SPOTIFY_ENDPOINT = f"https://api.spotify.com/v1/users/{SPOTIFY_USERNAME}/playlists"
 
 year = input("Enter the year you wanna travel to? Enter the year in yyyy-mm-dd : ")
